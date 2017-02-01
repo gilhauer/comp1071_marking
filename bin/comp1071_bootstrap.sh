@@ -8,6 +8,10 @@ for pkg in git ruby; do
     sudo apt-get -y install ${pkg}
 done
 
+for gem in serverspec; do
+    gem install ${gem}
+done
+
 # [ clone the repository as root ]
 (
     cd /var; \
