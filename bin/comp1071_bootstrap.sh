@@ -11,5 +11,6 @@ done
 # [ clone the repository as root ]
 (
     cd /var; \
+    sudo rm -rf comp1071_marking; \
     sudo git clone ${REPO}
 )
